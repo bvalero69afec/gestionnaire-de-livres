@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestionnaire de Livres</title>
+
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <h2 id="book-manager-title">Gestionnaire de Livres</h2>
+
+  <form id="add-book-form">
+    <input id="book-title-input" type="text" placeholder="Titre" required/>
+
+    <input id="book-author-input" type="text" placeholder="Auteur" required/>
+
+    <select id="book-category-select" required>
+      <option value="" disabled selected>Choisissez une catégorie</option>
+      <option>Roman</option>
+      <option>Sciences</option>
+      <option>Informatique</option>
+    </select>
+
+    <button id="add-book-button">Ajouter un livre</button>
+  </form>
+
+  <h3 id="my-books-title">Mes Livres</h3>
+
+  <p id="no-books-text">Aucun livre à afficher.</p>
+
+  <ol id="my-books-list" class="hide"></ol>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
