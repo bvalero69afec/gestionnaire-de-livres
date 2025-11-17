@@ -69,13 +69,13 @@ body {
 }
 
 .my-book-author {
-  display: block;
+  margin: 0;
   font-weight: bold;
   color: dimgray;
 }
 
 .my-book-category {
-  display: block;
   margin-top: 4px;
+  margin-bottom: 0;
   color: gray;
 }

@@ -21,14 +21,14 @@ addBookForm.addEventListener("submit", function (event) {
   bookTitleInput.value = "";
 
   const bookAuthor = bookAuthorInput.value;
-  const myBookAuthor = document.createElement("span");
+  const myBookAuthor = document.createElement("p");
   myBookAuthor.classList.add("my-book-author");
   myBookAuthor.textContent = bookAuthor;
   myBookItem.appendChild(myBookAuthor);
   bookAuthorInput.value = "";
 
   const bookCategory = bookCategorySelect.value;
-  const myBookCategory = document.createElement("span");
+  const myBookCategory = document.createElement("p");
   myBookCategory.classList.add("my-book-category");
   myBookCategory.textContent = bookCategory;
   myBookItem.appendChild(myBookCategory);
